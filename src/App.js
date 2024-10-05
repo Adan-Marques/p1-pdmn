@@ -1,16 +1,11 @@
 import React from 'react'
+import TarefaEntrada from './TarefaEntrada'
 
 const App = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <span class="border border-dark rounded text-center mt-4">
-          <div className='col-12'>
-            <h1>
-              Hello, tarefas
-            </h1>
-          </div>
-        </span>
+        <TarefaEntrada />
       </div>
     </div>
 
